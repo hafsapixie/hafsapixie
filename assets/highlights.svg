@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180" viewBox="0 0 1100 180" role="img" aria-label="Highlights: 2 spoken languages, 4 frontend technologies, 2 backend technologies, Azure listed for cloud.">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <style>
+      .num { font-family: Segoe UI, Helvetica Neue, Arial, sans-serif; font-size: 34px; font-weight: 700; fill: #F8FAFC; }
+      .label { font-family: Segoe UI, Helvetica Neue, Arial, sans-serif; font-size: 13px; fill: #94A3B8; }
+      .sub { font-family: Segoe UI, Helvetica Neue, Arial, sans-serif; font-size: 11px; fill: #64748B; }
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+      }
+      .c1 { animation: floatCard 5s ease-in-out infinite; }
+      .c2 { animation: floatCard 5s ease-in-out 0.4s infinite; }
+      .c3 { animation: floatCard 5s ease-in-out 0.8s infinite; }
+      .c4 { animation: floatCard 5s ease-in-out 1.2s infinite; }
+    </style>
+  </defs>
+
+  <g class="c1">
+    <rect x="8" y="18" width="250" height="144" rx="16" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <text class="num" x="133" y="82" text-anchor="middle">2</text>
+    <text class="label" x="133" y="112" text-anchor="middle">Spoken languages</text>
+    <text class="sub" x="133" y="134" text-anchor="middle">English · Urdu</text>
+  </g>
+  <g class="c2">
+    <rect x="286" y="18" width="250" height="144" rx="16" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <text class="num" x="411" y="82" text-anchor="middle">4</text>
+    <text class="label" x="411" y="112" text-anchor="middle">Frontend technologies</text>
+    <text class="sub" x="411" y="134" text-anchor="middle">HTML · CSS · Tailwind · JS</text>
+  </g>
+  <g class="c3">
+    <rect x="564" y="18" width="250" height="144" rx="16" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <text class="num" x="689" y="82" text-anchor="middle">2</text>
+    <text class="label" x="689" y="112" text-anchor="middle">Backend technologies</text>
+    <text class="sub" x="689" y="134" text-anchor="middle">Python · Django</text>
+  </g>
+  <g class="c4">
+    <rect x="842" y="18" width="250" height="144" rx="16" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <text class="num" x="967" y="82" text-anchor="middle">Azure</text>
+    <text class="label" x="967" y="112" text-anchor="middle">Cloud platform</text>
+    <text class="sub" x="967" y="134" text-anchor="middle">SQLite for data</text>
+  </g>
+</svg>
